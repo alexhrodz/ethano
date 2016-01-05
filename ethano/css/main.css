@@ -201,7 +201,7 @@
 	border-right: 1px solid #cccccc;
 }
 
-.media-body {
+.statistic .media-body {
 	margin: 0 auto;
 	display: block;
 }
@@ -211,11 +211,11 @@
 }
 
 
-.media-list .websites p {
+.statistic .media-list .websites p {
 	font-weight: normal;
 }
 
-.media-list a {
+.statistic .media-list a {
 	display: inline-block;
 	height: 58px;
 	margin: 50px 0;
