@@ -58,7 +58,6 @@
 	font-size: 1.6rem;
 }
 
-
 .head span:after {
 	content: '';
 	display: block;
@@ -75,9 +74,15 @@
 
 .blok {
 	background-color: #ffca26;
+	text-align: center;
+	color: white;
+	padding: 70px 0 100px;
+	font-weight: bold;
 }
 
-
+.blok img {
+	padding-bottom: 40px;
+}
 
 
 
