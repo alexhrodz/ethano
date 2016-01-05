@@ -5,7 +5,7 @@
    ========================================================================== */
 
 .logo_s {
-	background-color: #dddddd;
+	background: url(../img/f33.png) repeat-x center;
 	text-align: center;
 }
 
@@ -18,13 +18,55 @@
 	display: inline-block;	
 }
 
+.navbar a:after {
+	content: '';
+	display: block;
+	width: 46px;
+	height: 6px;
+	background-color: #424242;
+	margin: 9px auto 40px;
+}
 
 
+/* ==========================================================================
+   head
+   ========================================================================== */
+.head {
+	background: url(../img/fon_h.png) no-repeat top center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 190px 0;
+}
+
+.head h1, .head span {
+	text-transform: uppercase;
+}
+
+.head h1 {
+	color: #FFCA26;
+	font-weight: bold;
+}
+
+.head p {
+	font-size: 2.0rem;
+	margin: 15px auto 85px;
+}
+
+.head span {
+	font-size: 1.6rem;
+}
 
 
-
-
-
+.head span:after {
+	content: '';
+	display: block;
+	width: 147px;
+	height: 4px;
+	background-color: #FFCA26;
+	margin: 15px auto 40px;
+}
 
 
 /* ==========================================================================
