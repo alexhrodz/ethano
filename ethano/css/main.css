@@ -7,8 +7,26 @@
 .logo_s {
 	background: url(../img/f33.png) repeat-x center;
 	text-align: center;
+	margin: 20px 0 60px;
 }
 
+.websites .mark1 {
+	color: #FFCA26;
+}
+
+.websites p {
+	color: #B6B6B6;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.7rem;
+}
+
+
+.websites h2{
+	color: #606060;
+	margin-top: 100px;
+	text-transform: uppercase;
+}
 /* ==========================================================================
    nav
    ========================================================================== */
@@ -76,20 +94,33 @@
 	background-color: #ffca26;
 	text-align: center;
 	color: white;
-	padding: 70px 0 100px;
-	font-weight: bold;
+	padding: 80px 0 110px;
+	font-size: 1.9rem;
 }
 
 .blok img {
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 }
-
-
 
    /* ==========================================================================
    focus
    ========================================================================== */
+.focus {
+	text-align: center;
+	color: #B6B6B6;
+}
 
+.focus_right{
+	text-align: right;
+}
+
+.focus_left {
+	text-align: left;
+}
+
+.focus .logo_s {
+	background: none;
+}
 
    /* ==========================================================================
    about
@@ -102,6 +133,8 @@
 .about_left {
 	background: url(../img/about_fon_1.jpg) no-repeat top center;
 	background-size: cover;
+	height: 445px;
+	display: block;
 }
 
 .about_left li {
@@ -110,11 +143,47 @@
 }
 
 .about_left a {
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	display: inline-block;
-	background-color: red;
+	background-color: #FFCA26;
+	color: white;
+	font-size: 2.4rem;
+	padding: 7px;
 }
+
+.about_menu {
+	position: relative;
+	bottom: -395px;
+	left: 10px;
+}
+
+.about_l_p {
+	padding: 0 20px 0 90px;
+	text-align: center;
+	font-size: 2.9rem;
+	color: #333333;
+	margin-top: 50px;
+}
+
+.progress {
+	border-radius: 0;
+}
+
+.about_right {
+	padding: 30px;
+}
+
+.about_right h3 {
+	font-weight: bold;	
+}
+
+.progress_bar {
+	margin-top: 70px;
+}
+
+
+
 
    /* ==========================================================================
    statistic
@@ -123,6 +192,7 @@
 	background-color: #f3f3f3;
 	border-top: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
+	text-align: center;
 }
 
 
@@ -130,6 +200,27 @@
 	border-left: 1px solid #cccccc;
 	border-right: 1px solid #cccccc;
 }
+
+.media-body {
+	margin: 0 auto;
+	display: block;
+}
+
+.media-body h4 {
+	font-weight: bold;		
+}
+
+
+.media-list .websites p {
+	font-weight: normal;
+}
+
+.media-list a {
+	display: inline-block;
+	height: 58px;
+	margin: 50px 0;
+}
+
 
 
 
